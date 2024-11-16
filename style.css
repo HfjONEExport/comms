@@ -5,6 +5,12 @@
 body{
     font-family: 'comms';
     background: linear-gradient(150deg, #fed, #fde);
+    color: black;
+}
+div{
+    margin: 0;
+    gap: 10px;
+    overflow: hidden;
 }
 .container{
     position: absolute;
@@ -21,11 +27,16 @@ body{
     background: url(pattern.png);
     background-size: 10px;
 }
+.title{
+    background-color: white;
+    border: black 5px solid;
+    border-radius: 2vh;
+    padding: 1vh;
+}
 h1{
     font-size: 5vh;
     font-weight: lighter;
     margin: 0;
-    color: black;
 }
 .images{
     display: flex;
@@ -35,28 +46,41 @@ h1{
     align-content: center;
     justify-items: center;
     justify-content: center;
-    gap: 10px;
 }
 .card{
     border: 5px black solid;
-    border-radius: 50px;
-    width: 40vw;
-    height: 40vw;
+    border-radius: 15%;
+    width: 45vw;
+    height: 45vw;
     max-width: 350px;
     max-height: 350px;
     background: center;
     background-size: contain;
     background-color: white;
+    font-size: 4vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-items: center;
+    justify-content: center;
+}
+p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
 }
 #img1{
-    background-image: url(./test.png);
+    background-image: url(./imgs/test.png);
 }
 #img2{
-    background-image: url(./test.png);
+    background-image: url(./imgs/test.png);
 }
 #img3{
-    background-image: url(./test.png);
+    background-image: url(./imgs/test.png);
 }
 #img4{
-    background-image: url(./test.png);
+    background-image: url(./imgs/test.png);
 }
