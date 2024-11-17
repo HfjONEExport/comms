@@ -4,7 +4,7 @@
 }
 body{
     font-family: 'comms';
-    background: linear-gradient(150deg, #fed, #fde);
+    background: linear-gradient(150deg, #fed, #fbc);
     color: black;
 }
 div{
@@ -28,7 +28,7 @@ div{
     background-size: 10px;
 }
 .title{
-    background-color: white;
+    background-color: #FFBFED;
     border: black 5px solid;
     border-radius: 2vh;
     padding: 1vh;
