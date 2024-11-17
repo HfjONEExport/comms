@@ -50,8 +50,8 @@ h1{
 .card{
     border: 5px black solid;
     border-radius: 15%;
-    width: 45vw;
-    height: 45vw;
+    width: 48vw;
+    height: 48vw;
     max-width: 350px;
     max-height: 350px;
     background: center;
@@ -88,8 +88,8 @@ a{
 img{
     border: 5px black solid;
     border-radius: 15%;
-    width: 45vw;
-    height: 45vw;
+    width: 48vw;
+    height: 48vw;
     max-width: 350px;
     max-height: 350px;
 }
