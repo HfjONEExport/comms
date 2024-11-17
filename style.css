@@ -57,7 +57,7 @@ h1{
     background: center;
     background-size: contain;
     background-color: white;
-    font-size: 4vh;
+    font-size: 3vh;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -69,18 +69,27 @@ p{
     margin: 0;
 }
 a{
+    margin: 0;
     text-decoration: none;
     color: inherit;
 }
 #img1{
-    background-image: url(./imgs/test.png);
+    background-image: url(./imgs/full.png);
 }
 #img2{
-    background-image: url(./imgs/test.png);
+    background-image: url(./imgs/background.png);
 }
 #img3{
-    background-image: url(./imgs/test.png);
+    background-image: url(./imgs/sketch.png);
 }
 #img4{
-    background-image: url(./imgs/test.png);
+    background-image: url(./imgs/examples.png);
+}
+img{
+    border: 5px black solid;
+    border-radius: 15%;
+    width: 45vw;
+    height: 45vw;
+    max-width: 350px;
+    max-height: 350px;
 }

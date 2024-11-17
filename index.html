@@ -4,6 +4,11 @@
             Commission Pricing
         </title>
         <link rel="stylesheet" href="style.css">
+        <script>
+            function Examples() {
+                window.open("./examples/","_self")
+            }
+        </script>
     </head>
     <body>
         <div class="container">
@@ -12,21 +17,18 @@
             </div>
             <div class="images">
                 <div class="card" id="img1">
-                    <p id="label">Full Body $X</p>
+                    <p id="label">Full $X</p>
                 </div>
                 <div class="card" id="img2">
-                    <p id="label">Half Body $X</p>
+                    <p id="label">+Background $X</p>
                 </div>
                 <div class="card" id="img3">
                     <p id="label">Sketch $X</p>
                 </div>
-                <div class="card" id="img4">
-                    <p id="label">+Background $X</p>
+                <div class="card" id="img4" onclick="Examples()" style="cursor: pointer;">
+                    <p id="label">Examples</p>
                 </div>
             </div>
-            <a href="./examples/"><div class="title" style="cursor: pointer;">
-                <h1>Examples</h1>
-            </div></a>
         </div>
     </body>
 </html>
